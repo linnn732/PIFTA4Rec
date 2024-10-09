@@ -1,0 +1,646 @@
+2024-03-01 00:02:02.876: ******************************************************************************************************************************************************
+2024-03-01 00:02:02.877:  *************************************  model_1 *************************************** 
+2024-03-01 00:02:29.923: test user nums : 12575  valid user nums : 1397
+2024-03-01 00:02:30.011: same_embedding=1
+2024-03-01 00:02:30.012: neg_margin=0.7
+2024-03-01 00:02:30.013: pos_margin=0.3
+2024-03-01 00:02:30.013: alternative_train_epoch_D=1
+2024-03-01 00:02:30.014: temp_learn=0
+2024-03-01 00:02:30.016: output_dir=./result
+2024-03-01 00:02:30.017: distrisample=0
+2024-03-01 00:02:30.018: pretrain_epoch=2
+2024-03-01 00:02:30.019: MODEL_DIR=./runs
+2024-03-01 00:02:30.019: input_dir=dataset/TaFeng.txt
+2024-03-01 00:02:30.020: dataset=TaFeng
+2024-03-01 00:02:30.021: epochs=35
+2024-03-01 00:02:30.022: device_id=0
+2024-03-01 00:02:30.022: log_interval=500
+2024-03-01 00:02:30.023: num_users=13972
+2024-03-01 00:02:30.024: num_product=12085
+2024-03-01 00:02:30.024: test_ratio=100
+2024-03-01 00:02:30.025: log_fire=test
+2024-03-01 00:02:30.026: test_type=2200
+2024-03-01 00:02:30.026: test_every_epoch=1
+2024-03-01 00:02:30.027: alternative_train_epoch=1
+2024-03-01 00:02:30.028: alternative_train_batch=200
+2024-03-01 00:02:30.029: max_basket_size=100
+2024-03-01 00:02:30.029: max_basket_num=50
+2024-03-01 00:02:30.030: group_split1=4
+2024-03-01 00:02:30.031: group_split2=6
+2024-03-01 00:02:30.031: batch_size=128
+2024-03-01 00:02:30.032: neg_ratio=1
+2024-03-01 00:02:30.033: sd1=1
+2024-03-01 00:02:30.033: sd2=1
+2024-03-01 00:02:30.034: sd3=1
+2024-03-01 00:02:30.034: sd4=1
+2024-03-01 00:02:30.035: sd5=1
+2024-03-01 00:02:30.036: learning_rate=0.0001
+2024-03-01 00:02:30.036: G1_lr=0.0001
+2024-03-01 00:02:30.037: dropout=0.3
+2024-03-01 00:02:30.038: weight_decay=1e-05
+2024-03-01 00:02:30.038: basket_pool_type=avg
+2024-03-01 00:02:30.039: num_layer=1
+2024-03-01 00:02:30.039: embedding_dim=64
+2024-03-01 00:02:30.040: ANNEAL_RATE=10
+2024-03-01 00:02:30.041: temp=1
+2024-03-01 00:02:30.041: temp_min=0.3
+2024-03-01 00:02:30.042: before_epoch=0
+2024-03-01 00:02:30.043: G1_flag=-1
+2024-03-01 00:02:30.044: histroy=1
+2024-03-01 00:02:30.044: output_number=1
+2024-03-01 00:02:56.764: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:02:57.068: [Training]| Epochs   1 | Batch     0  | ms/batch 0.00 | Loss 9.3949 | p1_Loss 9.3949 | p2_Loss 9.3949 | p3_Loss 9.3949 | p4_Loss 9.3949 | 
+2024-03-01 00:02:57.070: real_rest_sum 31832.0000 | real_rest_sum_int 31832.0000 | all_sum 31832.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:03:12.313: [Training]| Epochs   1 | Batch   500  | ms/batch 0.03 | Loss 8.6867 | p1_Loss 8.6867 | p2_Loss 8.6867 | p3_Loss 8.6867 | p4_Loss 8.6867 | 
+2024-03-01 00:03:12.314: real_rest_sum 1416.0000 | real_rest_sum_int 1416.0000 | all_sum 1416.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:03:27.565: [Training]| Epochs   1 | Batch  1000  | ms/batch 0.03 | Loss 8.5376 | p1_Loss 8.5376 | p2_Loss 8.5376 | p3_Loss 8.5376 | p4_Loss 8.5376 | 
+2024-03-01 00:03:27.567: real_rest_sum 5743.0000 | real_rest_sum_int 5743.0000 | all_sum 5743.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:03:44.783: [Training]| Epochs   1 | Batch  1500  | ms/batch 0.03 | Loss 8.6588 | p1_Loss 8.6588 | p2_Loss 8.6588 | p3_Loss 8.6588 | p4_Loss 8.6588 | 
+2024-03-01 00:03:44.784: real_rest_sum 2345.0000 | real_rest_sum_int 2345.0000 | all_sum 2345.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:03:59.915: [Training]| Epochs   1 | Batch  2000  | ms/batch 0.03 | Loss 8.8224 | p1_Loss 8.8224 | p2_Loss 8.8224 | p3_Loss 8.8224 | p4_Loss 8.8224 | 
+2024-03-01 00:03:59.917: real_rest_sum 3067.0000 | real_rest_sum_int 3067.0000 | all_sum 3067.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:04:17.845: [Training]| Epochs   1 | Batch  2500  | ms/batch 0.04 | Loss 8.7510 | p1_Loss 8.7510 | p2_Loss 8.7510 | p3_Loss 8.7510 | p4_Loss 8.7510 | 
+2024-03-01 00:04:17.846: real_rest_sum 3867.0000 | real_rest_sum_int 3867.0000 | all_sum 3867.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:04:28.540: batch_num: 2838
+2024-03-01 00:04:28.541: [Training]| Epochs   1 | loss_all  8.6338 | p1_all  8.6338 | p2_all  8.6338 | p3_all  8.6338 | p4_all  8.6338 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:04:28.542: train loss:8.633769925334573
+2024-03-01 00:06:24.855: 1
+2024-03-01 00:06:37.504: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:06:37.690: [Training]| Epochs   2 | Batch     0  | ms/batch 0.00 | Loss 8.5425 | p1_Loss 8.5425 | p2_Loss 8.5425 | p3_Loss 8.5425 | p4_Loss 8.5425 | 
+2024-03-01 00:06:37.692: real_rest_sum 45054.0000 | real_rest_sum_int 45054.0000 | all_sum 45054.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:06:55.425: [Training]| Epochs   2 | Batch   500  | ms/batch 0.04 | Loss 8.3071 | p1_Loss 8.3071 | p2_Loss 8.3071 | p3_Loss 8.3071 | p4_Loss 8.3071 | 
+2024-03-01 00:06:55.426: real_rest_sum 23653.0000 | real_rest_sum_int 23653.0000 | all_sum 23653.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:07:11.423: [Training]| Epochs   2 | Batch  1000  | ms/batch 0.03 | Loss 8.4643 | p1_Loss 8.4643 | p2_Loss 8.4643 | p3_Loss 8.4643 | p4_Loss 8.4643 | 
+2024-03-01 00:07:11.425: real_rest_sum 6268.0000 | real_rest_sum_int 6268.0000 | all_sum 6268.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:07:29.399: [Training]| Epochs   2 | Batch  1500  | ms/batch 0.04 | Loss 8.4620 | p1_Loss 8.4620 | p2_Loss 8.4620 | p3_Loss 8.4620 | p4_Loss 8.4620 | 
+2024-03-01 00:07:29.400: real_rest_sum 3716.0000 | real_rest_sum_int 3716.0000 | all_sum 3716.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:07:44.111: [Training]| Epochs   2 | Batch  2000  | ms/batch 0.03 | Loss 8.7447 | p1_Loss 8.7447 | p2_Loss 8.7447 | p3_Loss 8.7447 | p4_Loss 8.7447 | 
+2024-03-01 00:07:44.112: real_rest_sum 796.0000 | real_rest_sum_int 796.0000 | all_sum 796.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:07:59.546: [Training]| Epochs   2 | Batch  2500  | ms/batch 0.03 | Loss 8.4731 | p1_Loss 8.4731 | p2_Loss 8.4731 | p3_Loss 8.4731 | p4_Loss 8.4731 | 
+2024-03-01 00:07:59.547: real_rest_sum 6531.0000 | real_rest_sum_int 6531.0000 | all_sum 6531.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:08:11.475: batch_num: 2838
+2024-03-01 00:08:11.476: [Training]| Epochs   2 | loss_all  8.4975 | p1_all  8.4975 | p2_all  8.4975 | p3_all  8.4975 | p4_all  8.4975 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:08:11.477: train loss:8.4975018413912
+2024-03-01 00:10:07.429: 1
+2024-03-01 00:10:20.110: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:10:20.180: [Training]| Epochs   3 | Batch     0  | ms/batch 0.00 | Loss 8.3691 | p1_Loss 8.3691 | p2_Loss 8.3691 | p3_Loss 8.3691 | p4_Loss 8.3691 | 
+2024-03-01 00:10:20.182: real_rest_sum 35475.0000 | real_rest_sum_int 35475.0000 | all_sum 35475.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:10:35.940: [Training]| Epochs   3 | Batch   500  | ms/batch 0.03 | Loss 8.4316 | p1_Loss 8.4316 | p2_Loss 8.4316 | p3_Loss 8.4316 | p4_Loss 8.4316 | 
+2024-03-01 00:10:35.942: real_rest_sum 2307.0000 | real_rest_sum_int 2307.0000 | all_sum 2307.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:10:50.900: [Training]| Epochs   3 | Batch  1000  | ms/batch 0.03 | Loss 8.4858 | p1_Loss 8.4858 | p2_Loss 8.4858 | p3_Loss 8.4858 | p4_Loss 8.4858 | 
+2024-03-01 00:10:50.902: real_rest_sum 2192.0000 | real_rest_sum_int 2192.0000 | all_sum 2192.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:11:07.416: [Training]| Epochs   3 | Batch  1500  | ms/batch 0.03 | Loss 8.4276 | p1_Loss 8.4276 | p2_Loss 8.4276 | p3_Loss 8.4276 | p4_Loss 8.4276 | 
+2024-03-01 00:11:07.417: real_rest_sum 7429.0000 | real_rest_sum_int 7429.0000 | all_sum 7429.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:11:26.049: [Training]| Epochs   3 | Batch  2000  | ms/batch 0.04 | Loss 8.4676 | p1_Loss 8.4676 | p2_Loss 8.4676 | p3_Loss 8.4676 | p4_Loss 8.4676 | 
+2024-03-01 00:11:26.050: real_rest_sum 10399.0000 | real_rest_sum_int 10399.0000 | all_sum 10399.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:11:44.156: [Training]| Epochs   3 | Batch  2500  | ms/batch 0.04 | Loss 8.1644 | p1_Loss 8.1644 | p2_Loss 8.1644 | p3_Loss 8.1644 | p4_Loss 8.1644 | 
+2024-03-01 00:11:44.157: real_rest_sum 2636.0000 | real_rest_sum_int 2636.0000 | all_sum 2636.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:11:53.670: batch_num: 2838
+2024-03-01 00:11:53.671: [Training]| Epochs   3 | loss_all  8.4750 | p1_all  8.4750 | p2_all  8.4750 | p3_all  8.4750 | p4_all  8.4750 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:11:53.672: train loss:8.475037001656176
+2024-03-01 00:13:50.071: 1
+2024-03-01 00:14:02.473: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:14:02.710: [Training]| Epochs   4 | Batch     0  | ms/batch 0.00 | Loss 8.6802 | p1_Loss 8.6802 | p2_Loss 8.6802 | p3_Loss 8.6802 | p4_Loss 8.6802 | 
+2024-03-01 00:14:02.711: real_rest_sum 14966.0000 | real_rest_sum_int 14966.0000 | all_sum 14966.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:14:20.369: [Training]| Epochs   4 | Batch   500  | ms/batch 0.04 | Loss 8.4611 | p1_Loss 8.4611 | p2_Loss 8.4611 | p3_Loss 8.4611 | p4_Loss 8.4611 | 
+2024-03-01 00:14:20.371: real_rest_sum 1898.0000 | real_rest_sum_int 1898.0000 | all_sum 1898.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:14:35.508: [Training]| Epochs   4 | Batch  1000  | ms/batch 0.03 | Loss 8.4620 | p1_Loss 8.4620 | p2_Loss 8.4620 | p3_Loss 8.4620 | p4_Loss 8.4620 | 
+2024-03-01 00:14:35.509: real_rest_sum 10423.0000 | real_rest_sum_int 10423.0000 | all_sum 10423.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:14:52.681: [Training]| Epochs   4 | Batch  1500  | ms/batch 0.03 | Loss 8.5579 | p1_Loss 8.5579 | p2_Loss 8.5579 | p3_Loss 8.5579 | p4_Loss 8.5579 | 
+2024-03-01 00:14:52.682: real_rest_sum 7324.0000 | real_rest_sum_int 7324.0000 | all_sum 7324.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:15:09.729: [Training]| Epochs   4 | Batch  2000  | ms/batch 0.03 | Loss 8.3930 | p1_Loss 8.3930 | p2_Loss 8.3930 | p3_Loss 8.3930 | p4_Loss 8.3930 | 
+2024-03-01 00:15:09.731: real_rest_sum 18277.0000 | real_rest_sum_int 18277.0000 | all_sum 18277.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:15:25.735: [Training]| Epochs   4 | Batch  2500  | ms/batch 0.03 | Loss 8.6250 | p1_Loss 8.6250 | p2_Loss 8.6250 | p3_Loss 8.6250 | p4_Loss 8.6250 | 
+2024-03-01 00:15:25.736: real_rest_sum 1430.0000 | real_rest_sum_int 1430.0000 | all_sum 1430.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:15:36.007: batch_num: 2838
+2024-03-01 00:15:36.008: [Training]| Epochs   4 | loss_all  8.4442 | p1_all  8.4442 | p2_all  8.4442 | p3_all  8.4442 | p4_all  8.4442 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:15:36.009: train loss:8.444214881012522
+2024-03-01 00:17:27.983: 1
+2024-03-01 00:17:40.433: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:17:40.787: [Training]| Epochs   5 | Batch     0  | ms/batch 0.00 | Loss 8.1307 | p1_Loss 8.1307 | p2_Loss 8.1307 | p3_Loss 8.1307 | p4_Loss 8.1307 | 
+2024-03-01 00:17:40.789: real_rest_sum 11695.0000 | real_rest_sum_int 11695.0000 | all_sum 11695.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:17:56.492: [Training]| Epochs   5 | Batch   500  | ms/batch 0.03 | Loss 8.4992 | p1_Loss 8.4992 | p2_Loss 8.4992 | p3_Loss 8.4992 | p4_Loss 8.4992 | 
+2024-03-01 00:17:56.492: real_rest_sum 4400.0000 | real_rest_sum_int 4400.0000 | all_sum 4400.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:18:14.060: [Training]| Epochs   5 | Batch  1000  | ms/batch 0.04 | Loss 8.3724 | p1_Loss 8.3724 | p2_Loss 8.3724 | p3_Loss 8.3724 | p4_Loss 8.3724 | 
+2024-03-01 00:18:14.062: real_rest_sum 1012.0000 | real_rest_sum_int 1012.0000 | all_sum 1012.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:18:27.768: [Training]| Epochs   5 | Batch  1500  | ms/batch 0.03 | Loss 6.5421 | p1_Loss 6.5421 | p2_Loss 6.5421 | p3_Loss 6.5421 | p4_Loss 6.5421 | 
+2024-03-01 00:18:27.770: real_rest_sum 22.0000 | real_rest_sum_int 22.0000 | all_sum 22.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:18:45.832: [Training]| Epochs   5 | Batch  2000  | ms/batch 0.04 | Loss 8.0559 | p1_Loss 8.0559 | p2_Loss 8.0559 | p3_Loss 8.0559 | p4_Loss 8.0559 | 
+2024-03-01 00:18:45.833: real_rest_sum 5134.0000 | real_rest_sum_int 5134.0000 | all_sum 5134.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:19:03.662: [Training]| Epochs   5 | Batch  2500  | ms/batch 0.04 | Loss 8.4386 | p1_Loss 8.4386 | p2_Loss 8.4386 | p3_Loss 8.4386 | p4_Loss 8.4386 | 
+2024-03-01 00:19:03.664: real_rest_sum 2316.0000 | real_rest_sum_int 2316.0000 | all_sum 2316.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:19:13.521: batch_num: 2838
+2024-03-01 00:19:13.522: [Training]| Epochs   5 | loss_all  8.4123 | p1_all  8.4123 | p2_all  8.4123 | p3_all  8.4123 | p4_all  8.4123 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:19:13.523: train loss:8.412342201579701
+2024-03-01 00:20:47.407: 1
+2024-03-01 00:20:57.774: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:20:58.238: [Training]| Epochs   6 | Batch     0  | ms/batch 0.00 | Loss 8.5180 | p1_Loss 8.5180 | p2_Loss 8.5180 | p3_Loss 8.5180 | p4_Loss 8.5180 | 
+2024-03-01 00:20:58.240: real_rest_sum 10249.0000 | real_rest_sum_int 10249.0000 | all_sum 10249.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:21:16.305: [Training]| Epochs   6 | Batch   500  | ms/batch 0.04 | Loss 8.3224 | p1_Loss 8.3224 | p2_Loss 8.3224 | p3_Loss 8.3224 | p4_Loss 8.3224 | 
+2024-03-01 00:21:16.306: real_rest_sum 13186.0000 | real_rest_sum_int 13186.0000 | all_sum 13186.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:21:32.984: [Training]| Epochs   6 | Batch  1000  | ms/batch 0.03 | Loss 8.6022 | p1_Loss 8.6022 | p2_Loss 8.6022 | p3_Loss 8.6022 | p4_Loss 8.6022 | 
+2024-03-01 00:21:32.985: real_rest_sum 2458.0000 | real_rest_sum_int 2458.0000 | all_sum 2458.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:21:50.205: [Training]| Epochs   6 | Batch  1500  | ms/batch 0.03 | Loss 8.5757 | p1_Loss 8.5757 | p2_Loss 8.5757 | p3_Loss 8.5757 | p4_Loss 8.5757 | 
+2024-03-01 00:21:50.206: real_rest_sum 2447.0000 | real_rest_sum_int 2447.0000 | all_sum 2447.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:22:05.797: [Training]| Epochs   6 | Batch  2000  | ms/batch 0.03 | Loss 8.3374 | p1_Loss 8.3374 | p2_Loss 8.3374 | p3_Loss 8.3374 | p4_Loss 8.3374 | 
+2024-03-01 00:22:05.798: real_rest_sum 20569.0000 | real_rest_sum_int 20569.0000 | all_sum 20569.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:22:22.169: [Training]| Epochs   6 | Batch  2500  | ms/batch 0.03 | Loss 8.7187 | p1_Loss 8.7187 | p2_Loss 8.7187 | p3_Loss 8.7187 | p4_Loss 8.7187 | 
+2024-03-01 00:22:22.170: real_rest_sum 759.0000 | real_rest_sum_int 759.0000 | all_sum 759.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:22:32.416: batch_num: 2838
+2024-03-01 00:22:32.417: [Training]| Epochs   6 | loss_all  8.3802 | p1_all  8.3802 | p2_all  8.3802 | p3_all  8.3802 | p4_all  8.3802 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:22:32.418: train loss:8.380165828458855
+2024-03-01 00:24:27.474: 1
+2024-03-01 00:24:40.170: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:24:40.269: [Training]| Epochs   7 | Batch     0  | ms/batch 0.00 | Loss 8.4298 | p1_Loss 8.4298 | p2_Loss 8.4298 | p3_Loss 8.4298 | p4_Loss 8.4298 | 
+2024-03-01 00:24:40.270: real_rest_sum 41139.0000 | real_rest_sum_int 41139.0000 | all_sum 41139.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:24:58.104: [Training]| Epochs   7 | Batch   500  | ms/batch 0.04 | Loss 8.1100 | p1_Loss 8.1100 | p2_Loss 8.1100 | p3_Loss 8.1100 | p4_Loss 8.1100 | 
+2024-03-01 00:24:58.105: real_rest_sum 2941.0000 | real_rest_sum_int 2941.0000 | all_sum 2941.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:25:13.794: [Training]| Epochs   7 | Batch  1000  | ms/batch 0.03 | Loss 8.3785 | p1_Loss 8.3785 | p2_Loss 8.3785 | p3_Loss 8.3785 | p4_Loss 8.3785 | 
+2024-03-01 00:25:13.795: real_rest_sum 6352.0000 | real_rest_sum_int 6352.0000 | all_sum 6352.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:25:30.297: [Training]| Epochs   7 | Batch  1500  | ms/batch 0.03 | Loss 8.4465 | p1_Loss 8.4465 | p2_Loss 8.4465 | p3_Loss 8.4465 | p4_Loss 8.4465 | 
+2024-03-01 00:25:30.298: real_rest_sum 2165.0000 | real_rest_sum_int 2165.0000 | all_sum 2165.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:25:45.994: [Training]| Epochs   7 | Batch  2000  | ms/batch 0.03 | Loss 8.2733 | p1_Loss 8.2733 | p2_Loss 8.2733 | p3_Loss 8.2733 | p4_Loss 8.2733 | 
+2024-03-01 00:25:45.995: real_rest_sum 2945.0000 | real_rest_sum_int 2945.0000 | all_sum 2945.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:26:00.889: [Training]| Epochs   7 | Batch  2500  | ms/batch 0.03 | Loss 7.8430 | p1_Loss 7.8430 | p2_Loss 7.8430 | p3_Loss 7.8430 | p4_Loss 7.8430 | 
+2024-03-01 00:26:00.890: real_rest_sum 13164.0000 | real_rest_sum_int 13164.0000 | all_sum 13164.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:26:13.486: batch_num: 2838
+2024-03-01 00:26:13.487: [Training]| Epochs   7 | loss_all  8.3503 | p1_all  8.3503 | p2_all  8.3503 | p3_all  8.3503 | p4_all  8.3503 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:26:13.488: train loss:8.350310351665462
+2024-03-01 00:28:10.528: 1
+2024-03-01 00:28:23.169: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:28:23.335: [Training]| Epochs   8 | Batch     0  | ms/batch 0.00 | Loss 8.3871 | p1_Loss 8.3871 | p2_Loss 8.3871 | p3_Loss 8.3871 | p4_Loss 8.3871 | 
+2024-03-01 00:28:23.336: real_rest_sum 29838.0000 | real_rest_sum_int 29838.0000 | all_sum 29838.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:28:42.281: [Training]| Epochs   8 | Batch   500  | ms/batch 0.04 | Loss 8.2902 | p1_Loss 8.2902 | p2_Loss 8.2902 | p3_Loss 8.2902 | p4_Loss 8.2902 | 
+2024-03-01 00:28:42.282: real_rest_sum 3736.0000 | real_rest_sum_int 3736.0000 | all_sum 3736.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:28:58.113: [Training]| Epochs   8 | Batch  1000  | ms/batch 0.03 | Loss 8.7442 | p1_Loss 8.7442 | p2_Loss 8.7442 | p3_Loss 8.7442 | p4_Loss 8.7442 | 
+2024-03-01 00:28:58.115: real_rest_sum 2550.0000 | real_rest_sum_int 2550.0000 | all_sum 2550.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:29:12.382: [Training]| Epochs   8 | Batch  1500  | ms/batch 0.03 | Loss 8.5512 | p1_Loss 8.5512 | p2_Loss 8.5512 | p3_Loss 8.5512 | p4_Loss 8.5512 | 
+2024-03-01 00:29:12.383: real_rest_sum 1011.0000 | real_rest_sum_int 1011.0000 | all_sum 1011.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:29:26.498: [Training]| Epochs   8 | Batch  2000  | ms/batch 0.03 | Loss 8.2191 | p1_Loss 8.2191 | p2_Loss 8.2191 | p3_Loss 8.2191 | p4_Loss 8.2191 | 
+2024-03-01 00:29:26.499: real_rest_sum 8161.0000 | real_rest_sum_int 8161.0000 | all_sum 8161.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:29:45.893: [Training]| Epochs   8 | Batch  2500  | ms/batch 0.04 | Loss 8.2004 | p1_Loss 8.2004 | p2_Loss 8.2004 | p3_Loss 8.2004 | p4_Loss 8.2004 | 
+2024-03-01 00:29:45.894: real_rest_sum 5310.0000 | real_rest_sum_int 5310.0000 | all_sum 5310.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:29:57.251: batch_num: 2838
+2024-03-01 00:29:57.252: [Training]| Epochs   8 | loss_all  8.3178 | p1_all  8.3178 | p2_all  8.3178 | p3_all  8.3178 | p4_all  8.3178 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:29:57.253: train loss:8.317844029292832
+2024-03-01 00:32:28.621: 1
+2024-03-01 00:32:49.408: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:32:50.022: [Training]| Epochs   9 | Batch     0  | ms/batch 0.00 | Loss 7.9260 | p1_Loss 7.9260 | p2_Loss 7.9260 | p3_Loss 7.9260 | p4_Loss 7.9260 | 
+2024-03-01 00:32:50.023: real_rest_sum 11695.0000 | real_rest_sum_int 11695.0000 | all_sum 11695.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:33:20.251: [Training]| Epochs   9 | Batch   500  | ms/batch 0.06 | Loss 8.3666 | p1_Loss 8.3666 | p2_Loss 8.3666 | p3_Loss 8.3666 | p4_Loss 8.3666 | 
+2024-03-01 00:33:20.280: real_rest_sum 8091.0000 | real_rest_sum_int 8091.0000 | all_sum 8091.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:33:48.165: [Training]| Epochs   9 | Batch  1000  | ms/batch 0.06 | Loss 8.1316 | p1_Loss 8.1316 | p2_Loss 8.1316 | p3_Loss 8.1316 | p4_Loss 8.1316 | 
+2024-03-01 00:33:48.169: real_rest_sum 2545.0000 | real_rest_sum_int 2545.0000 | all_sum 2545.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:34:16.245: [Training]| Epochs   9 | Batch  1500  | ms/batch 0.06 | Loss 7.9556 | p1_Loss 7.9556 | p2_Loss 7.9556 | p3_Loss 7.9556 | p4_Loss 7.9556 | 
+2024-03-01 00:34:16.251: real_rest_sum 2475.0000 | real_rest_sum_int 2475.0000 | all_sum 2475.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:34:47.696: [Training]| Epochs   9 | Batch  2000  | ms/batch 0.06 | Loss 8.1080 | p1_Loss 8.1080 | p2_Loss 8.1080 | p3_Loss 8.1080 | p4_Loss 8.1080 | 
+2024-03-01 00:34:47.697: real_rest_sum 3425.0000 | real_rest_sum_int 3425.0000 | all_sum 3425.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:35:13.678: [Training]| Epochs   9 | Batch  2500  | ms/batch 0.05 | Loss 8.0105 | p1_Loss 8.0105 | p2_Loss 8.0105 | p3_Loss 8.0105 | p4_Loss 8.0105 | 
+2024-03-01 00:35:13.679: real_rest_sum 1078.0000 | real_rest_sum_int 1078.0000 | all_sum 1078.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:35:33.548: batch_num: 2838
+2024-03-01 00:35:33.549: [Training]| Epochs   9 | loss_all  8.2855 | p1_all  8.2855 | p2_all  8.2855 | p3_all  8.2855 | p4_all  8.2855 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:35:33.550: train loss:8.285508142717292
+2024-03-01 00:38:54.417: 1
+2024-03-01 00:39:15.772: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:39:15.938: [Training]| Epochs  10 | Batch     0  | ms/batch 0.00 | Loss 7.9272 | p1_Loss 7.9272 | p2_Loss 7.9272 | p3_Loss 7.9272 | p4_Loss 7.9272 | 
+2024-03-01 00:39:15.940: real_rest_sum 44822.0000 | real_rest_sum_int 44822.0000 | all_sum 44822.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:39:47.187: [Training]| Epochs  10 | Batch   500  | ms/batch 0.06 | Loss 8.0702 | p1_Loss 8.0702 | p2_Loss 8.0702 | p3_Loss 8.0702 | p4_Loss 8.0702 | 
+2024-03-01 00:39:47.194: real_rest_sum 5296.0000 | real_rest_sum_int 5296.0000 | all_sum 5296.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:40:20.956: [Training]| Epochs  10 | Batch  1000  | ms/batch 0.07 | Loss 8.1641 | p1_Loss 8.1641 | p2_Loss 8.1641 | p3_Loss 8.1641 | p4_Loss 8.1641 | 
+2024-03-01 00:40:20.959: real_rest_sum 11389.0000 | real_rest_sum_int 11389.0000 | all_sum 11389.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:40:48.669: [Training]| Epochs  10 | Batch  1500  | ms/batch 0.06 | Loss 8.2368 | p1_Loss 8.2368 | p2_Loss 8.2368 | p3_Loss 8.2368 | p4_Loss 8.2368 | 
+2024-03-01 00:40:48.671: real_rest_sum 1675.0000 | real_rest_sum_int 1675.0000 | all_sum 1675.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:41:17.184: [Training]| Epochs  10 | Batch  2000  | ms/batch 0.06 | Loss 8.2708 | p1_Loss 8.2708 | p2_Loss 8.2708 | p3_Loss 8.2708 | p4_Loss 8.2708 | 
+2024-03-01 00:41:17.186: real_rest_sum 8770.0000 | real_rest_sum_int 8770.0000 | all_sum 8770.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:41:43.374: [Training]| Epochs  10 | Batch  2500  | ms/batch 0.05 | Loss 7.9708 | p1_Loss 7.9708 | p2_Loss 7.9708 | p3_Loss 7.9708 | p4_Loss 7.9708 | 
+2024-03-01 00:41:43.375: real_rest_sum 1078.0000 | real_rest_sum_int 1078.0000 | all_sum 1078.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:42:02.102: batch_num: 2838
+2024-03-01 00:42:02.104: [Training]| Epochs  10 | loss_all  8.2526 | p1_all  8.2526 | p2_all  8.2526 | p3_all  8.2526 | p4_all  8.2526 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:42:02.106: train loss:8.252592598409027
+2024-03-01 00:44:45.593: 1
+2024-03-01 00:45:03.038: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:45:03.285: [Training]| Epochs  11 | Batch     0  | ms/batch 0.00 | Loss 8.1128 | p1_Loss 8.1128 | p2_Loss 8.1128 | p3_Loss 8.1128 | p4_Loss 8.1128 | 
+2024-03-01 00:45:03.286: real_rest_sum 17173.0000 | real_rest_sum_int 17173.0000 | all_sum 17173.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:45:18.048: [Training]| Epochs  11 | Batch   500  | ms/batch 0.03 | Loss 7.8709 | p1_Loss 7.8709 | p2_Loss 7.8709 | p3_Loss 7.8709 | p4_Loss 7.8709 | 
+2024-03-01 00:45:18.049: real_rest_sum 20543.0000 | real_rest_sum_int 20543.0000 | all_sum 20543.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:45:36.736: [Training]| Epochs  11 | Batch  1000  | ms/batch 0.04 | Loss 8.2774 | p1_Loss 8.2774 | p2_Loss 8.2774 | p3_Loss 8.2774 | p4_Loss 8.2774 | 
+2024-03-01 00:45:36.737: real_rest_sum 8300.0000 | real_rest_sum_int 8300.0000 | all_sum 8300.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:45:52.532: [Training]| Epochs  11 | Batch  1500  | ms/batch 0.03 | Loss 8.2733 | p1_Loss 8.2733 | p2_Loss 8.2733 | p3_Loss 8.2733 | p4_Loss 8.2733 | 
+2024-03-01 00:45:52.533: real_rest_sum 1317.0000 | real_rest_sum_int 1317.0000 | all_sum 1317.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:46:06.761: [Training]| Epochs  11 | Batch  2000  | ms/batch 0.03 | Loss 8.4861 | p1_Loss 8.4861 | p2_Loss 8.4861 | p3_Loss 8.4861 | p4_Loss 8.4861 | 
+2024-03-01 00:46:06.762: real_rest_sum 1232.0000 | real_rest_sum_int 1232.0000 | all_sum 1232.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:46:23.774: [Training]| Epochs  11 | Batch  2500  | ms/batch 0.03 | Loss 8.4308 | p1_Loss 8.4308 | p2_Loss 8.4308 | p3_Loss 8.4308 | p4_Loss 8.4308 | 
+2024-03-01 00:46:23.775: real_rest_sum 5384.0000 | real_rest_sum_int 5384.0000 | all_sum 5384.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:46:35.626: batch_num: 2838
+2024-03-01 00:46:35.627: [Training]| Epochs  11 | loss_all  8.2189 | p1_all  8.2189 | p2_all  8.2189 | p3_all  8.2189 | p4_all  8.2189 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:46:35.628: train loss:8.218948172380422
+2024-03-01 00:48:26.794: 1
+2024-03-01 00:48:38.951: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:48:39.207: [Training]| Epochs  12 | Batch     0  | ms/batch 0.00 | Loss 7.7978 | p1_Loss 7.7978 | p2_Loss 7.7978 | p3_Loss 7.7978 | p4_Loss 7.7978 | 
+2024-03-01 00:48:39.208: real_rest_sum 18026.0000 | real_rest_sum_int 18026.0000 | all_sum 18026.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:48:55.993: [Training]| Epochs  12 | Batch   500  | ms/batch 0.03 | Loss 8.1757 | p1_Loss 8.1757 | p2_Loss 8.1757 | p3_Loss 8.1757 | p4_Loss 8.1757 | 
+2024-03-01 00:48:55.994: real_rest_sum 4797.0000 | real_rest_sum_int 4797.0000 | all_sum 4797.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:49:11.491: [Training]| Epochs  12 | Batch  1000  | ms/batch 0.03 | Loss 8.0539 | p1_Loss 8.0539 | p2_Loss 8.0539 | p3_Loss 8.0539 | p4_Loss 8.0539 | 
+2024-03-01 00:49:11.492: real_rest_sum 18277.0000 | real_rest_sum_int 18277.0000 | all_sum 18277.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:49:27.599: [Training]| Epochs  12 | Batch  1500  | ms/batch 0.03 | Loss 8.0870 | p1_Loss 8.0870 | p2_Loss 8.0870 | p3_Loss 8.0870 | p4_Loss 8.0870 | 
+2024-03-01 00:49:27.600: real_rest_sum 6153.0000 | real_rest_sum_int 6153.0000 | all_sum 6153.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:49:44.724: [Training]| Epochs  12 | Batch  2000  | ms/batch 0.03 | Loss 7.9767 | p1_Loss 7.9767 | p2_Loss 7.9767 | p3_Loss 7.9767 | p4_Loss 7.9767 | 
+2024-03-01 00:49:44.725: real_rest_sum 1166.0000 | real_rest_sum_int 1166.0000 | all_sum 1166.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:49:58.549: [Training]| Epochs  12 | Batch  2500  | ms/batch 0.03 | Loss 8.4272 | p1_Loss 8.4272 | p2_Loss 8.4272 | p3_Loss 8.4272 | p4_Loss 8.4272 | 
+2024-03-01 00:49:58.550: real_rest_sum 904.0000 | real_rest_sum_int 904.0000 | all_sum 904.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:50:11.511: batch_num: 2838
+2024-03-01 00:50:11.512: [Training]| Epochs  12 | loss_all  8.1815 | p1_all  8.1815 | p2_all  8.1815 | p3_all  8.1815 | p4_all  8.1815 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:50:11.513: train loss:8.181547641586132
+2024-03-01 00:51:42.941: 1
+2024-03-01 00:51:53.155: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:51:53.344: [Training]| Epochs  13 | Batch     0  | ms/batch 0.00 | Loss 8.0405 | p1_Loss 8.0405 | p2_Loss 8.0405 | p3_Loss 8.0405 | p4_Loss 8.0405 | 
+2024-03-01 00:51:53.346: real_rest_sum 22987.0000 | real_rest_sum_int 22987.0000 | all_sum 22987.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:52:12.461: [Training]| Epochs  13 | Batch   500  | ms/batch 0.04 | Loss 7.9282 | p1_Loss 7.9282 | p2_Loss 7.9282 | p3_Loss 7.9282 | p4_Loss 7.9282 | 
+2024-03-01 00:52:12.463: real_rest_sum 3085.0000 | real_rest_sum_int 3085.0000 | all_sum 3085.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:52:29.273: [Training]| Epochs  13 | Batch  1000  | ms/batch 0.03 | Loss 8.1065 | p1_Loss 8.1065 | p2_Loss 8.1065 | p3_Loss 8.1065 | p4_Loss 8.1065 | 
+2024-03-01 00:52:29.274: real_rest_sum 9865.0000 | real_rest_sum_int 9865.0000 | all_sum 9865.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:52:44.543: [Training]| Epochs  13 | Batch  1500  | ms/batch 0.03 | Loss 7.9138 | p1_Loss 7.9138 | p2_Loss 7.9138 | p3_Loss 7.9138 | p4_Loss 7.9138 | 
+2024-03-01 00:52:44.544: real_rest_sum 1751.0000 | real_rest_sum_int 1751.0000 | all_sum 1751.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:52:59.430: [Training]| Epochs  13 | Batch  2000  | ms/batch 0.03 | Loss 8.2528 | p1_Loss 8.2528 | p2_Loss 8.2528 | p3_Loss 8.2528 | p4_Loss 8.2528 | 
+2024-03-01 00:52:59.431: real_rest_sum 2192.0000 | real_rest_sum_int 2192.0000 | all_sum 2192.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:53:15.308: [Training]| Epochs  13 | Batch  2500  | ms/batch 0.03 | Loss 8.2569 | p1_Loss 8.2569 | p2_Loss 8.2569 | p3_Loss 8.2569 | p4_Loss 8.2569 | 
+2024-03-01 00:53:15.309: real_rest_sum 4709.0000 | real_rest_sum_int 4709.0000 | all_sum 4709.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:53:26.358: batch_num: 2838
+2024-03-01 00:53:26.360: [Training]| Epochs  13 | loss_all  8.1435 | p1_all  8.1435 | p2_all  8.1435 | p3_all  8.1435 | p4_all  8.1435 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:53:26.360: train loss:8.14349238010592
+2024-03-01 00:55:19.419: 1
+2024-03-01 00:55:32.075: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:55:32.313: [Training]| Epochs  14 | Batch     0  | ms/batch 0.00 | Loss 7.8649 | p1_Loss 7.8649 | p2_Loss 7.8649 | p3_Loss 7.8649 | p4_Loss 7.8649 | 
+2024-03-01 00:55:32.315: real_rest_sum 15922.0000 | real_rest_sum_int 15922.0000 | all_sum 15922.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:55:49.797: [Training]| Epochs  14 | Batch   500  | ms/batch 0.03 | Loss 7.8236 | p1_Loss 7.8236 | p2_Loss 7.8236 | p3_Loss 7.8236 | p4_Loss 7.8236 | 
+2024-03-01 00:55:49.798: real_rest_sum 12411.0000 | real_rest_sum_int 12411.0000 | all_sum 12411.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:56:04.593: [Training]| Epochs  14 | Batch  1000  | ms/batch 0.03 | Loss 8.4028 | p1_Loss 8.4028 | p2_Loss 8.4028 | p3_Loss 8.4028 | p4_Loss 8.4028 | 
+2024-03-01 00:56:04.594: real_rest_sum 1084.0000 | real_rest_sum_int 1084.0000 | all_sum 1084.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:56:20.857: [Training]| Epochs  14 | Batch  1500  | ms/batch 0.03 | Loss 8.0880 | p1_Loss 8.0880 | p2_Loss 8.0880 | p3_Loss 8.0880 | p4_Loss 8.0880 | 
+2024-03-01 00:56:20.859: real_rest_sum 3407.0000 | real_rest_sum_int 3407.0000 | all_sum 3407.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:56:37.652: [Training]| Epochs  14 | Batch  2000  | ms/batch 0.03 | Loss 7.9375 | p1_Loss 7.9375 | p2_Loss 7.9375 | p3_Loss 7.9375 | p4_Loss 7.9375 | 
+2024-03-01 00:56:37.653: real_rest_sum 5586.0000 | real_rest_sum_int 5586.0000 | all_sum 5586.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:56:54.954: [Training]| Epochs  14 | Batch  2500  | ms/batch 0.03 | Loss 8.6048 | p1_Loss 8.6048 | p2_Loss 8.6048 | p3_Loss 8.6048 | p4_Loss 8.6048 | 
+2024-03-01 00:56:54.955: real_rest_sum 2550.0000 | real_rest_sum_int 2550.0000 | all_sum 2550.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:57:04.735: batch_num: 2838
+2024-03-01 00:57:04.735: [Training]| Epochs  14 | loss_all  8.1055 | p1_all  8.1055 | p2_all  8.1055 | p3_all  8.1055 | p4_all  8.1055 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 00:57:04.736: train loss:8.10547648810265
+2024-03-01 00:58:46.953: 1
+2024-03-01 00:58:57.737: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 00:58:57.838: [Training]| Epochs  15 | Batch     0  | ms/batch 0.00 | Loss 7.6921 | p1_Loss 7.6921 | p2_Loss 7.6921 | p3_Loss 7.6921 | p4_Loss 7.6921 | 
+2024-03-01 00:58:57.839: real_rest_sum 40970.0000 | real_rest_sum_int 40970.0000 | all_sum 40970.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:59:15.327: [Training]| Epochs  15 | Batch   500  | ms/batch 0.03 | Loss 8.4037 | p1_Loss 8.4037 | p2_Loss 8.4037 | p3_Loss 8.4037 | p4_Loss 8.4037 | 
+2024-03-01 00:59:15.328: real_rest_sum 5994.0000 | real_rest_sum_int 5994.0000 | all_sum 5994.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:59:31.358: [Training]| Epochs  15 | Batch  1000  | ms/batch 0.03 | Loss 7.8396 | p1_Loss 7.8396 | p2_Loss 7.8396 | p3_Loss 7.8396 | p4_Loss 7.8396 | 
+2024-03-01 00:59:31.359: real_rest_sum 4957.0000 | real_rest_sum_int 4957.0000 | all_sum 4957.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 00:59:48.837: [Training]| Epochs  15 | Batch  1500  | ms/batch 0.03 | Loss 8.3553 | p1_Loss 8.3553 | p2_Loss 8.3553 | p3_Loss 8.3553 | p4_Loss 8.3553 | 
+2024-03-01 00:59:48.839: real_rest_sum 4593.0000 | real_rest_sum_int 4593.0000 | all_sum 4593.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:00:02.452: [Training]| Epochs  15 | Batch  2000  | ms/batch 0.03 | Loss 8.8313 | p1_Loss 8.8313 | p2_Loss 8.8313 | p3_Loss 8.8313 | p4_Loss 8.8313 | 
+2024-03-01 01:00:02.453: real_rest_sum 2363.0000 | real_rest_sum_int 2363.0000 | all_sum 2363.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:00:16.208: [Training]| Epochs  15 | Batch  2500  | ms/batch 0.03 | Loss 8.1310 | p1_Loss 8.1310 | p2_Loss 8.1310 | p3_Loss 8.1310 | p4_Loss 8.1310 | 
+2024-03-01 01:00:16.209: real_rest_sum 2713.0000 | real_rest_sum_int 2713.0000 | all_sum 2713.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:00:24.972: batch_num: 2838
+2024-03-01 01:00:24.973: [Training]| Epochs  15 | loss_all  8.0637 | p1_all  8.0637 | p2_all  8.0637 | p3_all  8.0637 | p4_all  8.0637 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:00:24.974: train loss:8.063721252378231
+2024-03-01 01:02:01.300: 1
+2024-03-01 01:02:11.969: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:02:12.082: [Training]| Epochs  16 | Batch     0  | ms/batch 0.00 | Loss 7.6478 | p1_Loss 7.6478 | p2_Loss 7.6478 | p3_Loss 7.6478 | p4_Loss 7.6478 | 
+2024-03-01 01:02:12.083: real_rest_sum 43362.0000 | real_rest_sum_int 43362.0000 | all_sum 43362.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:02:29.628: [Training]| Epochs  16 | Batch   500  | ms/batch 0.04 | Loss 7.4172 | p1_Loss 7.4172 | p2_Loss 7.4172 | p3_Loss 7.4172 | p4_Loss 7.4172 | 
+2024-03-01 01:02:29.629: real_rest_sum 16544.0000 | real_rest_sum_int 16544.0000 | all_sum 16544.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:02:45.929: [Training]| Epochs  16 | Batch  1000  | ms/batch 0.03 | Loss 7.8958 | p1_Loss 7.8958 | p2_Loss 7.8958 | p3_Loss 7.8958 | p4_Loss 7.8958 | 
+2024-03-01 01:02:45.931: real_rest_sum 7938.0000 | real_rest_sum_int 7938.0000 | all_sum 7938.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:03:01.672: [Training]| Epochs  16 | Batch  1500  | ms/batch 0.03 | Loss 7.7827 | p1_Loss 7.7827 | p2_Loss 7.7827 | p3_Loss 7.7827 | p4_Loss 7.7827 | 
+2024-03-01 01:03:01.673: real_rest_sum 19951.0000 | real_rest_sum_int 19951.0000 | all_sum 19951.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:03:16.724: [Training]| Epochs  16 | Batch  2000  | ms/batch 0.03 | Loss 8.0399 | p1_Loss 8.0399 | p2_Loss 8.0399 | p3_Loss 8.0399 | p4_Loss 8.0399 | 
+2024-03-01 01:03:16.725: real_rest_sum 1618.0000 | real_rest_sum_int 1618.0000 | all_sum 1618.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:03:30.458: [Training]| Epochs  16 | Batch  2500  | ms/batch 0.03 | Loss 8.5171 | p1_Loss 8.5171 | p2_Loss 8.5171 | p3_Loss 8.5171 | p4_Loss 8.5171 | 
+2024-03-01 01:03:30.459: real_rest_sum 1544.0000 | real_rest_sum_int 1544.0000 | all_sum 1544.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:03:39.431: batch_num: 2838
+2024-03-01 01:03:39.432: [Training]| Epochs  16 | loss_all  8.0227 | p1_all  8.0227 | p2_all  8.0227 | p3_all  8.0227 | p4_all  8.0227 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:03:39.432: train loss:8.022747117083538
+2024-03-01 01:05:15.739: 1
+2024-03-01 01:05:26.453: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:05:26.553: [Training]| Epochs  17 | Batch     0  | ms/batch 0.00 | Loss 7.6158 | p1_Loss 7.6158 | p2_Loss 7.6158 | p3_Loss 7.6158 | p4_Loss 7.6158 | 
+2024-03-01 01:05:26.555: real_rest_sum 40970.0000 | real_rest_sum_int 40970.0000 | all_sum 40970.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:05:44.061: [Training]| Epochs  17 | Batch   500  | ms/batch 0.04 | Loss 8.2059 | p1_Loss 8.2059 | p2_Loss 8.2059 | p3_Loss 8.2059 | p4_Loss 8.2059 | 
+2024-03-01 01:05:44.062: real_rest_sum 4888.0000 | real_rest_sum_int 4888.0000 | all_sum 4888.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:05:58.161: [Training]| Epochs  17 | Batch  1000  | ms/batch 0.03 | Loss 8.1253 | p1_Loss 8.1253 | p2_Loss 8.1253 | p3_Loss 8.1253 | p4_Loss 8.1253 | 
+2024-03-01 01:05:58.163: real_rest_sum 696.0000 | real_rest_sum_int 696.0000 | all_sum 696.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:06:12.241: [Training]| Epochs  17 | Batch  1500  | ms/batch 0.03 | Loss 7.6761 | p1_Loss 7.6761 | p2_Loss 7.6761 | p3_Loss 7.6761 | p4_Loss 7.6761 | 
+2024-03-01 01:06:12.243: real_rest_sum 3542.0000 | real_rest_sum_int 3542.0000 | all_sum 3542.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:06:28.999: [Training]| Epochs  17 | Batch  2000  | ms/batch 0.03 | Loss 7.7195 | p1_Loss 7.7195 | p2_Loss 7.7195 | p3_Loss 7.7195 | p4_Loss 7.7195 | 
+2024-03-01 01:06:29.001: real_rest_sum 1918.0000 | real_rest_sum_int 1918.0000 | all_sum 1918.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:06:42.715: [Training]| Epochs  17 | Batch  2500  | ms/batch 0.03 | Loss 7.5112 | p1_Loss 7.5112 | p2_Loss 7.5112 | p3_Loss 7.5112 | p4_Loss 7.5112 | 
+2024-03-01 01:06:42.716: real_rest_sum 22300.0000 | real_rest_sum_int 22300.0000 | all_sum 22300.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:06:54.655: batch_num: 2838
+2024-03-01 01:06:54.656: [Training]| Epochs  17 | loss_all  7.9808 | p1_all  7.9808 | p2_all  7.9808 | p3_all  7.9808 | p4_all  7.9808 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:06:54.657: train loss:7.9807764680726665
+2024-03-01 01:08:31.064: 1
+2024-03-01 01:08:41.820: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:08:42.056: [Training]| Epochs  18 | Batch     0  | ms/batch 0.00 | Loss 7.6731 | p1_Loss 7.6731 | p2_Loss 7.6731 | p3_Loss 7.6731 | p4_Loss 7.6731 | 
+2024-03-01 01:08:42.057: real_rest_sum 15922.0000 | real_rest_sum_int 15922.0000 | all_sum 15922.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:08:58.744: [Training]| Epochs  18 | Batch   500  | ms/batch 0.03 | Loss 8.1737 | p1_Loss 8.1737 | p2_Loss 8.1737 | p3_Loss 8.1737 | p4_Loss 8.1737 | 
+2024-03-01 01:08:58.745: real_rest_sum 3322.0000 | real_rest_sum_int 3322.0000 | all_sum 3322.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:09:14.197: [Training]| Epochs  18 | Batch  1000  | ms/batch 0.03 | Loss 7.7817 | p1_Loss 7.7817 | p2_Loss 7.7817 | p3_Loss 7.7817 | p4_Loss 7.7817 | 
+2024-03-01 01:09:14.198: real_rest_sum 4580.0000 | real_rest_sum_int 4580.0000 | all_sum 4580.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:09:29.567: [Training]| Epochs  18 | Batch  1500  | ms/batch 0.03 | Loss 8.2638 | p1_Loss 8.2638 | p2_Loss 8.2638 | p3_Loss 8.2638 | p4_Loss 8.2638 | 
+2024-03-01 01:09:29.568: real_rest_sum 1749.0000 | real_rest_sum_int 1749.0000 | all_sum 1749.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:09:43.096: [Training]| Epochs  18 | Batch  2000  | ms/batch 0.03 | Loss 8.0122 | p1_Loss 8.0122 | p2_Loss 8.0122 | p3_Loss 8.0122 | p4_Loss 8.0122 | 
+2024-03-01 01:09:43.097: real_rest_sum 1120.0000 | real_rest_sum_int 1120.0000 | all_sum 1120.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:10:01.792: [Training]| Epochs  18 | Batch  2500  | ms/batch 0.04 | Loss 5.8965 | p1_Loss 5.8965 | p2_Loss 5.8965 | p3_Loss 5.8965 | p4_Loss 5.8965 | 
+2024-03-01 01:10:01.793: real_rest_sum 2022.0000 | real_rest_sum_int 2022.0000 | all_sum 2022.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:10:13.265: batch_num: 2838
+2024-03-01 01:10:13.266: [Training]| Epochs  18 | loss_all  7.9309 | p1_all  7.9309 | p2_all  7.9309 | p3_all  7.9309 | p4_all  7.9309 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:10:13.267: train loss:7.93085674100396
+2024-03-01 01:11:46.550: 1
+2024-03-01 01:11:56.695: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:11:57.435: [Training]| Epochs  19 | Batch     0  | ms/batch 0.00 | Loss 8.0308 | p1_Loss 8.0308 | p2_Loss 8.0308 | p3_Loss 8.0308 | p4_Loss 8.0308 | 
+2024-03-01 01:11:57.437: real_rest_sum 5185.0000 | real_rest_sum_int 5185.0000 | all_sum 5185.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:12:16.432: [Training]| Epochs  19 | Batch   500  | ms/batch 0.04 | Loss 8.4262 | p1_Loss 8.4262 | p2_Loss 8.4262 | p3_Loss 8.4262 | p4_Loss 8.4262 | 
+2024-03-01 01:12:16.433: real_rest_sum 5611.0000 | real_rest_sum_int 5611.0000 | all_sum 5611.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:12:35.782: [Training]| Epochs  19 | Batch  1000  | ms/batch 0.04 | Loss 8.1808 | p1_Loss 8.1808 | p2_Loss 8.1808 | p3_Loss 8.1808 | p4_Loss 8.1808 | 
+2024-03-01 01:12:35.783: real_rest_sum 1078.0000 | real_rest_sum_int 1078.0000 | all_sum 1078.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:12:53.012: [Training]| Epochs  19 | Batch  1500  | ms/batch 0.03 | Loss 7.7663 | p1_Loss 7.7663 | p2_Loss 7.7663 | p3_Loss 7.7663 | p4_Loss 7.7663 | 
+2024-03-01 01:12:53.013: real_rest_sum 818.0000 | real_rest_sum_int 818.0000 | all_sum 818.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:13:12.362: [Training]| Epochs  19 | Batch  2000  | ms/batch 0.04 | Loss 7.6315 | p1_Loss 7.6315 | p2_Loss 7.6315 | p3_Loss 7.6315 | p4_Loss 7.6315 | 
+2024-03-01 01:13:12.364: real_rest_sum 4801.0000 | real_rest_sum_int 4801.0000 | all_sum 4801.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:13:26.575: [Training]| Epochs  19 | Batch  2500  | ms/batch 0.03 | Loss 7.5204 | p1_Loss 7.5204 | p2_Loss 7.5204 | p3_Loss 7.5204 | p4_Loss 7.5204 | 
+2024-03-01 01:13:26.577: real_rest_sum 13359.0000 | real_rest_sum_int 13359.0000 | all_sum 13359.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:13:37.881: batch_num: 2838
+2024-03-01 01:13:37.882: [Training]| Epochs  19 | loss_all  7.8833 | p1_all  7.8833 | p2_all  7.8833 | p3_all  7.8833 | p4_all  7.8833 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:13:37.883: train loss:7.883347799611646
+2024-03-01 01:15:16.008: 1
+2024-03-01 01:15:26.726: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:15:26.807: [Training]| Epochs  20 | Batch     0  | ms/batch 0.00 | Loss 7.4440 | p1_Loss 7.4440 | p2_Loss 7.4440 | p3_Loss 7.4440 | p4_Loss 7.4440 | 
+2024-03-01 01:15:26.808: real_rest_sum 44822.0000 | real_rest_sum_int 44822.0000 | all_sum 44822.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:15:44.285: [Training]| Epochs  20 | Batch   500  | ms/batch 0.03 | Loss 7.4349 | p1_Loss 7.4349 | p2_Loss 7.4349 | p3_Loss 7.4349 | p4_Loss 7.4349 | 
+2024-03-01 01:15:44.286: real_rest_sum 4866.0000 | real_rest_sum_int 4866.0000 | all_sum 4866.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:15:58.849: [Training]| Epochs  20 | Batch  1000  | ms/batch 0.03 | Loss 8.2125 | p1_Loss 8.2125 | p2_Loss 8.2125 | p3_Loss 8.2125 | p4_Loss 8.2125 | 
+2024-03-01 01:15:58.850: real_rest_sum 3076.0000 | real_rest_sum_int 3076.0000 | all_sum 3076.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:16:12.857: [Training]| Epochs  20 | Batch  1500  | ms/batch 0.03 | Loss 7.9359 | p1_Loss 7.9359 | p2_Loss 7.9359 | p3_Loss 7.9359 | p4_Loss 7.9359 | 
+2024-03-01 01:16:12.859: real_rest_sum 3786.0000 | real_rest_sum_int 3786.0000 | all_sum 3786.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:16:29.063: [Training]| Epochs  20 | Batch  2000  | ms/batch 0.03 | Loss 7.7446 | p1_Loss 7.7446 | p2_Loss 7.7446 | p3_Loss 7.7446 | p4_Loss 7.7446 | 
+2024-03-01 01:16:29.064: real_rest_sum 4539.0000 | real_rest_sum_int 4539.0000 | all_sum 4539.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:16:43.570: [Training]| Epochs  20 | Batch  2500  | ms/batch 0.03 | Loss 8.2087 | p1_Loss 8.2087 | p2_Loss 8.2087 | p3_Loss 8.2087 | p4_Loss 8.2087 | 
+2024-03-01 01:16:43.571: real_rest_sum 2808.0000 | real_rest_sum_int 2808.0000 | all_sum 2808.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:16:54.286: batch_num: 2838
+2024-03-01 01:16:54.287: [Training]| Epochs  20 | loss_all  7.8324 | p1_all  7.8324 | p2_all  7.8324 | p3_all  7.8324 | p4_all  7.8324 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:16:54.288: train loss:7.832446948166377
+2024-03-01 01:18:30.671: 1
+2024-03-01 01:18:41.457: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:18:41.604: [Training]| Epochs  21 | Batch     0  | ms/batch 0.00 | Loss 7.5929 | p1_Loss 7.5929 | p2_Loss 7.5929 | p3_Loss 7.5929 | p4_Loss 7.5929 | 
+2024-03-01 01:18:41.605: real_rest_sum 29838.0000 | real_rest_sum_int 29838.0000 | all_sum 29838.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:18:55.244: [Training]| Epochs  21 | Batch   500  | ms/batch 0.03 | Loss 8.1798 | p1_Loss 8.1798 | p2_Loss 8.1798 | p3_Loss 8.1798 | p4_Loss 8.1798 | 
+2024-03-01 01:18:55.244: real_rest_sum 1781.0000 | real_rest_sum_int 1781.0000 | all_sum 1781.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:19:12.521: [Training]| Epochs  21 | Batch  1000  | ms/batch 0.03 | Loss 7.4937 | p1_Loss 7.4937 | p2_Loss 7.4937 | p3_Loss 7.4937 | p4_Loss 7.4937 | 
+2024-03-01 01:19:12.522: real_rest_sum 4902.0000 | real_rest_sum_int 4902.0000 | all_sum 4902.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:19:28.450: [Training]| Epochs  21 | Batch  1500  | ms/batch 0.03 | Loss 7.4870 | p1_Loss 7.4870 | p2_Loss 7.4870 | p3_Loss 7.4870 | p4_Loss 7.4870 | 
+2024-03-01 01:19:28.451: real_rest_sum 10989.0000 | real_rest_sum_int 10989.0000 | all_sum 10989.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:19:43.454: [Training]| Epochs  21 | Batch  2000  | ms/batch 0.03 | Loss 7.7983 | p1_Loss 7.7983 | p2_Loss 7.7983 | p3_Loss 7.7983 | p4_Loss 7.7983 | 
+2024-03-01 01:19:43.455: real_rest_sum 1755.0000 | real_rest_sum_int 1755.0000 | all_sum 1755.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:19:59.599: [Training]| Epochs  21 | Batch  2500  | ms/batch 0.03 | Loss 7.9164 | p1_Loss 7.9164 | p2_Loss 7.9164 | p3_Loss 7.9164 | p4_Loss 7.9164 | 
+2024-03-01 01:19:59.600: real_rest_sum 3498.0000 | real_rest_sum_int 3498.0000 | all_sum 3498.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:20:09.579: batch_num: 2838
+2024-03-01 01:20:09.580: [Training]| Epochs  21 | loss_all  7.7839 | p1_all  7.7839 | p2_all  7.7839 | p3_all  7.7839 | p4_all  7.7839 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:20:09.581: train loss:7.78390293301118
+2024-03-01 01:21:46.020: 1
+2024-03-01 01:21:56.802: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:21:56.988: [Training]| Epochs  22 | Batch     0  | ms/batch 0.00 | Loss 7.5588 | p1_Loss 7.5588 | p2_Loss 7.5588 | p3_Loss 7.5588 | p4_Loss 7.5588 | 
+2024-03-01 01:21:56.990: real_rest_sum 22987.0000 | real_rest_sum_int 22987.0000 | all_sum 22987.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:22:13.239: [Training]| Epochs  22 | Batch   500  | ms/batch 0.03 | Loss 4.1541 | p1_Loss 4.1541 | p2_Loss 4.1541 | p3_Loss 4.1541 | p4_Loss 4.1541 | 
+2024-03-01 01:22:13.240: real_rest_sum 1517.0000 | real_rest_sum_int 1517.0000 | all_sum 1517.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:22:31.141: [Training]| Epochs  22 | Batch  1000  | ms/batch 0.04 | Loss 7.6449 | p1_Loss 7.6449 | p2_Loss 7.6449 | p3_Loss 7.6449 | p4_Loss 7.6449 | 
+2024-03-01 01:22:31.143: real_rest_sum 4833.0000 | real_rest_sum_int 4833.0000 | all_sum 4833.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:22:46.035: [Training]| Epochs  22 | Batch  1500  | ms/batch 0.03 | Loss 7.9014 | p1_Loss 7.9014 | p2_Loss 7.9014 | p3_Loss 7.9014 | p4_Loss 7.9014 | 
+2024-03-01 01:22:46.036: real_rest_sum 1207.0000 | real_rest_sum_int 1207.0000 | all_sum 1207.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:22:59.900: [Training]| Epochs  22 | Batch  2000  | ms/batch 0.03 | Loss 7.9486 | p1_Loss 7.9486 | p2_Loss 7.9486 | p3_Loss 7.9486 | p4_Loss 7.9486 | 
+2024-03-01 01:22:59.901: real_rest_sum 2047.0000 | real_rest_sum_int 2047.0000 | all_sum 2047.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:23:13.976: [Training]| Epochs  22 | Batch  2500  | ms/batch 0.03 | Loss 7.4882 | p1_Loss 7.4882 | p2_Loss 7.4882 | p3_Loss 7.4882 | p4_Loss 7.4882 | 
+2024-03-01 01:23:13.977: real_rest_sum 3445.0000 | real_rest_sum_int 3445.0000 | all_sum 3445.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:23:24.315: batch_num: 2838
+2024-03-01 01:23:24.316: [Training]| Epochs  22 | loss_all  7.7289 | p1_all  7.7289 | p2_all  7.7289 | p3_all  7.7289 | p4_all  7.7289 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:23:24.317: train loss:7.728862448760202
+2024-03-01 01:25:00.767: 1
+2024-03-01 01:25:11.417: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:25:11.498: [Training]| Epochs  23 | Batch     0  | ms/batch 0.00 | Loss 7.2211 | p1_Loss 7.2211 | p2_Loss 7.2211 | p3_Loss 7.2211 | p4_Loss 7.2211 | 
+2024-03-01 01:25:11.500: real_rest_sum 40690.0000 | real_rest_sum_int 40690.0000 | all_sum 40690.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:25:28.733: [Training]| Epochs  23 | Batch   500  | ms/batch 0.03 | Loss 7.6761 | p1_Loss 7.6761 | p2_Loss 7.6761 | p3_Loss 7.6761 | p4_Loss 7.6761 | 
+2024-03-01 01:25:28.734: real_rest_sum 3529.0000 | real_rest_sum_int 3529.0000 | all_sum 3529.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:25:44.410: [Training]| Epochs  23 | Batch  1000  | ms/batch 0.03 | Loss 7.0917 | p1_Loss 7.0917 | p2_Loss 7.0917 | p3_Loss 7.0917 | p4_Loss 7.0917 | 
+2024-03-01 01:25:44.411: real_rest_sum 15956.0000 | real_rest_sum_int 15956.0000 | all_sum 15956.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:25:59.102: [Training]| Epochs  23 | Batch  1500  | ms/batch 0.03 | Loss 8.2229 | p1_Loss 8.2229 | p2_Loss 8.2229 | p3_Loss 8.2229 | p4_Loss 8.2229 | 
+2024-03-01 01:25:59.103: real_rest_sum 2732.0000 | real_rest_sum_int 2732.0000 | all_sum 2732.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:26:14.940: [Training]| Epochs  23 | Batch  2000  | ms/batch 0.03 | Loss 7.4390 | p1_Loss 7.4390 | p2_Loss 7.4390 | p3_Loss 7.4390 | p4_Loss 7.4390 | 
+2024-03-01 01:26:14.941: real_rest_sum 7938.0000 | real_rest_sum_int 7938.0000 | all_sum 7938.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:26:28.574: [Training]| Epochs  23 | Batch  2500  | ms/batch 0.03 | Loss 7.8679 | p1_Loss 7.8679 | p2_Loss 7.8679 | p3_Loss 7.8679 | p4_Loss 7.8679 | 
+2024-03-01 01:26:28.575: real_rest_sum 895.0000 | real_rest_sum_int 895.0000 | all_sum 895.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:26:38.728: batch_num: 2838
+2024-03-01 01:26:38.729: [Training]| Epochs  23 | loss_all  7.6771 | p1_all  7.6771 | p2_all  7.6771 | p3_all  7.6771 | p4_all  7.6771 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:26:38.730: train loss:7.677105415615085
+2024-03-01 01:28:14.407: 1
+2024-03-01 01:28:25.054: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:28:25.142: [Training]| Epochs  24 | Batch     0  | ms/batch 0.00 | Loss 7.2805 | p1_Loss 7.2805 | p2_Loss 7.2805 | p3_Loss 7.2805 | p4_Loss 7.2805 | 
+2024-03-01 01:28:25.143: real_rest_sum 31832.0000 | real_rest_sum_int 31832.0000 | all_sum 31832.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:28:43.994: [Training]| Epochs  24 | Batch   500  | ms/batch 0.04 | Loss 7.9737 | p1_Loss 7.9737 | p2_Loss 7.9737 | p3_Loss 7.9737 | p4_Loss 7.9737 | 
+2024-03-01 01:28:43.996: real_rest_sum 6365.0000 | real_rest_sum_int 6365.0000 | all_sum 6365.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:29:00.510: [Training]| Epochs  24 | Batch  1000  | ms/batch 0.03 | Loss 7.6590 | p1_Loss 7.6590 | p2_Loss 7.6590 | p3_Loss 7.6590 | p4_Loss 7.6590 | 
+2024-03-01 01:29:00.512: real_rest_sum 7877.0000 | real_rest_sum_int 7877.0000 | all_sum 7877.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:29:20.282: [Training]| Epochs  24 | Batch  1500  | ms/batch 0.04 | Loss 7.8926 | p1_Loss 7.8926 | p2_Loss 7.8926 | p3_Loss 7.8926 | p4_Loss 7.8926 | 
+2024-03-01 01:29:20.283: real_rest_sum 4425.0000 | real_rest_sum_int 4425.0000 | all_sum 4425.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:29:38.382: [Training]| Epochs  24 | Batch  2000  | ms/batch 0.04 | Loss 8.0556 | p1_Loss 8.0556 | p2_Loss 8.0556 | p3_Loss 8.0556 | p4_Loss 8.0556 | 
+2024-03-01 01:29:38.384: real_rest_sum 1255.0000 | real_rest_sum_int 1255.0000 | all_sum 1255.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:29:55.277: [Training]| Epochs  24 | Batch  2500  | ms/batch 0.03 | Loss 7.6606 | p1_Loss 7.6606 | p2_Loss 7.6606 | p3_Loss 7.6606 | p4_Loss 7.6606 | 
+2024-03-01 01:29:55.278: real_rest_sum 1530.0000 | real_rest_sum_int 1530.0000 | all_sum 1530.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:30:07.418: batch_num: 2838
+2024-03-01 01:30:07.419: [Training]| Epochs  24 | loss_all  7.6224 | p1_all  7.6224 | p2_all  7.6224 | p3_all  7.6224 | p4_all  7.6224 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:30:07.419: train loss:7.622372586681777
+2024-03-01 01:31:45.090: 1
+2024-03-01 01:31:55.829: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:31:55.893: [Training]| Epochs  25 | Batch     0  | ms/batch 0.00 | Loss 6.8877 | p1_Loss 6.8877 | p2_Loss 6.8877 | p3_Loss 6.8877 | p4_Loss 6.8877 | 
+2024-03-01 01:31:55.894: real_rest_sum 35475.0000 | real_rest_sum_int 35475.0000 | all_sum 35475.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:32:14.258: [Training]| Epochs  25 | Batch   500  | ms/batch 0.04 | Loss 7.1152 | p1_Loss 7.1152 | p2_Loss 7.1152 | p3_Loss 7.1152 | p4_Loss 7.1152 | 
+2024-03-01 01:32:14.260: real_rest_sum 4321.0000 | real_rest_sum_int 4321.0000 | all_sum 4321.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:32:29.042: [Training]| Epochs  25 | Batch  1000  | ms/batch 0.03 | Loss 7.5117 | p1_Loss 7.5117 | p2_Loss 7.5117 | p3_Loss 7.5117 | p4_Loss 7.5117 | 
+2024-03-01 01:32:29.044: real_rest_sum 2786.0000 | real_rest_sum_int 2786.0000 | all_sum 2786.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:32:44.226: [Training]| Epochs  25 | Batch  1500  | ms/batch 0.03 | Loss 7.7695 | p1_Loss 7.7695 | p2_Loss 7.7695 | p3_Loss 7.7695 | p4_Loss 7.7695 | 
+2024-03-01 01:32:44.227: real_rest_sum 2623.0000 | real_rest_sum_int 2623.0000 | all_sum 2623.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:32:59.283: [Training]| Epochs  25 | Batch  2000  | ms/batch 0.03 | Loss 7.0396 | p1_Loss 7.0396 | p2_Loss 7.0396 | p3_Loss 7.0396 | p4_Loss 7.0396 | 
+2024-03-01 01:32:59.284: real_rest_sum 21930.0000 | real_rest_sum_int 21930.0000 | all_sum 21930.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:33:12.967: [Training]| Epochs  25 | Batch  2500  | ms/batch 0.03 | Loss 7.5796 | p1_Loss 7.5796 | p2_Loss 7.5796 | p3_Loss 7.5796 | p4_Loss 7.5796 | 
+2024-03-01 01:33:12.969: real_rest_sum 1033.0000 | real_rest_sum_int 1033.0000 | all_sum 1033.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:33:23.178: batch_num: 2838
+2024-03-01 01:33:23.179: [Training]| Epochs  25 | loss_all  7.5676 | p1_all  7.5676 | p2_all  7.5676 | p3_all  7.5676 | p4_all  7.5676 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:33:23.180: train loss:7.567635090272136
+2024-03-01 01:35:01.446: 1
+2024-03-01 01:35:12.171: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:35:12.492: [Training]| Epochs  26 | Batch     0  | ms/batch 0.00 | Loss 7.1803 | p1_Loss 7.1803 | p2_Loss 7.1803 | p3_Loss 7.1803 | p4_Loss 7.1803 | 
+2024-03-01 01:35:12.494: real_rest_sum 17429.0000 | real_rest_sum_int 17429.0000 | all_sum 17429.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:35:26.984: [Training]| Epochs  26 | Batch   500  | ms/batch 0.03 | Loss 7.8269 | p1_Loss 7.8269 | p2_Loss 7.8269 | p3_Loss 7.8269 | p4_Loss 7.8269 | 
+2024-03-01 01:35:26.985: real_rest_sum 1127.0000 | real_rest_sum_int 1127.0000 | all_sum 1127.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:35:41.476: [Training]| Epochs  26 | Batch  1000  | ms/batch 0.03 | Loss 7.5808 | p1_Loss 7.5808 | p2_Loss 7.5808 | p3_Loss 7.5808 | p4_Loss 7.5808 | 
+2024-03-01 01:35:41.477: real_rest_sum 2304.0000 | real_rest_sum_int 2304.0000 | all_sum 2304.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:35:55.544: [Training]| Epochs  26 | Batch  1500  | ms/batch 0.03 | Loss 7.2025 | p1_Loss 7.2025 | p2_Loss 7.2025 | p3_Loss 7.2025 | p4_Loss 7.2025 | 
+2024-03-01 01:35:55.545: real_rest_sum 15958.0000 | real_rest_sum_int 15958.0000 | all_sum 15958.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:36:11.957: [Training]| Epochs  26 | Batch  2000  | ms/batch 0.03 | Loss 7.0766 | p1_Loss 7.0766 | p2_Loss 7.0766 | p3_Loss 7.0766 | p4_Loss 7.0766 | 
+2024-03-01 01:36:11.958: real_rest_sum 4712.0000 | real_rest_sum_int 4712.0000 | all_sum 4712.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:36:28.965: [Training]| Epochs  26 | Batch  2500  | ms/batch 0.03 | Loss 7.7732 | p1_Loss 7.7732 | p2_Loss 7.7732 | p3_Loss 7.7732 | p4_Loss 7.7732 | 
+2024-03-01 01:36:28.966: real_rest_sum 4683.0000 | real_rest_sum_int 4683.0000 | all_sum 4683.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:36:39.442: batch_num: 2838
+2024-03-01 01:36:39.443: [Training]| Epochs  26 | loss_all  7.5140 | p1_all  7.5140 | p2_all  7.5140 | p3_all  7.5140 | p4_all  7.5140 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:36:39.444: train loss:7.5139740537471384
+2024-03-01 01:38:15.794: 1
+2024-03-01 01:38:26.590: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:38:27.050: [Training]| Epochs  27 | Batch     0  | ms/batch 0.00 | Loss 7.5555 | p1_Loss 7.5555 | p2_Loss 7.5555 | p3_Loss 7.5555 | p4_Loss 7.5555 | 
+2024-03-01 01:38:27.051: real_rest_sum 10249.0000 | real_rest_sum_int 10249.0000 | all_sum 10249.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:38:43.326: [Training]| Epochs  27 | Batch   500  | ms/batch 0.03 | Loss 7.8876 | p1_Loss 7.8876 | p2_Loss 7.8876 | p3_Loss 7.8876 | p4_Loss 7.8876 | 
+2024-03-01 01:38:43.327: real_rest_sum 1295.0000 | real_rest_sum_int 1295.0000 | all_sum 1295.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:38:56.331: [Training]| Epochs  27 | Batch  1000  | ms/batch 0.03 | Loss 7.8969 | p1_Loss 7.8969 | p2_Loss 7.8969 | p3_Loss 7.8969 | p4_Loss 7.8969 | 
+2024-03-01 01:38:56.332: real_rest_sum 1491.0000 | real_rest_sum_int 1491.0000 | all_sum 1491.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:39:12.022: [Training]| Epochs  27 | Batch  1500  | ms/batch 0.03 | Loss 3.5030 | p1_Loss 3.5030 | p2_Loss 3.5030 | p3_Loss 3.5030 | p4_Loss 3.5030 | 
+2024-03-01 01:39:12.023: real_rest_sum 1517.0000 | real_rest_sum_int 1517.0000 | all_sum 1517.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:39:26.597: [Training]| Epochs  27 | Batch  2000  | ms/batch 0.03 | Loss 7.2668 | p1_Loss 7.2668 | p2_Loss 7.2668 | p3_Loss 7.2668 | p4_Loss 7.2668 | 
+2024-03-01 01:39:26.599: real_rest_sum 2347.0000 | real_rest_sum_int 2347.0000 | all_sum 2347.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:39:42.838: [Training]| Epochs  27 | Batch  2500  | ms/batch 0.03 | Loss 7.5005 | p1_Loss 7.5005 | p2_Loss 7.5005 | p3_Loss 7.5005 | p4_Loss 7.5005 | 
+2024-03-01 01:39:42.840: real_rest_sum 2869.0000 | real_rest_sum_int 2869.0000 | all_sum 2869.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:39:54.491: batch_num: 2838
+2024-03-01 01:39:54.492: [Training]| Epochs  27 | loss_all  7.4503 | p1_all  7.4503 | p2_all  7.4503 | p3_all  7.4503 | p4_all  7.4503 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:39:54.493: train loss:7.45031925479319
+2024-03-01 01:41:31.069: 1
+2024-03-01 01:41:41.764: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:41:41.943: [Training]| Epochs  28 | Batch     0  | ms/batch 0.00 | Loss 7.1790 | p1_Loss 7.1790 | p2_Loss 7.1790 | p3_Loss 7.1790 | p4_Loss 7.1790 | 
+2024-03-01 01:41:41.944: real_rest_sum 45054.0000 | real_rest_sum_int 45054.0000 | all_sum 45054.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:41:58.865: [Training]| Epochs  28 | Batch   500  | ms/batch 0.03 | Loss 7.0467 | p1_Loss 7.0467 | p2_Loss 7.0467 | p3_Loss 7.0467 | p4_Loss 7.0467 | 
+2024-03-01 01:41:58.866: real_rest_sum 9076.0000 | real_rest_sum_int 9076.0000 | all_sum 9076.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:42:15.024: [Training]| Epochs  28 | Batch  1000  | ms/batch 0.03 | Loss 7.4562 | p1_Loss 7.4562 | p2_Loss 7.4562 | p3_Loss 7.4562 | p4_Loss 7.4562 | 
+2024-03-01 01:42:15.026: real_rest_sum 1081.0000 | real_rest_sum_int 1081.0000 | all_sum 1081.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:42:28.031: [Training]| Epochs  28 | Batch  1500  | ms/batch 0.03 | Loss 7.6580 | p1_Loss 7.6580 | p2_Loss 7.6580 | p3_Loss 7.6580 | p4_Loss 7.6580 | 
+2024-03-01 01:42:28.032: real_rest_sum 850.0000 | real_rest_sum_int 850.0000 | all_sum 850.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:42:44.019: [Training]| Epochs  28 | Batch  2000  | ms/batch 0.03 | Loss 8.0583 | p1_Loss 8.0583 | p2_Loss 8.0583 | p3_Loss 8.0583 | p4_Loss 8.0583 | 
+2024-03-01 01:42:44.021: real_rest_sum 2297.0000 | real_rest_sum_int 2297.0000 | all_sum 2297.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:42:58.097: [Training]| Epochs  28 | Batch  2500  | ms/batch 0.03 | Loss 7.3967 | p1_Loss 7.3967 | p2_Loss 7.3967 | p3_Loss 7.3967 | p4_Loss 7.3967 | 
+2024-03-01 01:42:58.098: real_rest_sum 20674.0000 | real_rest_sum_int 20674.0000 | all_sum 20674.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:43:09.365: batch_num: 2838
+2024-03-01 01:43:09.366: [Training]| Epochs  28 | loss_all  7.3930 | p1_all  7.3930 | p2_all  7.3930 | p3_all  7.3930 | p4_all  7.3930 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:43:09.366: train loss:7.393008925740025
+2024-03-01 01:44:45.708: 1
+2024-03-01 01:44:56.402: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:44:57.134: [Training]| Epochs  29 | Batch     0  | ms/batch 0.00 | Loss 7.5504 | p1_Loss 7.5504 | p2_Loss 7.5504 | p3_Loss 7.5504 | p4_Loss 7.5504 | 
+2024-03-01 01:44:57.135: real_rest_sum 5185.0000 | real_rest_sum_int 5185.0000 | all_sum 5185.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:45:12.830: [Training]| Epochs  29 | Batch   500  | ms/batch 0.03 | Loss 7.6142 | p1_Loss 7.6142 | p2_Loss 7.6142 | p3_Loss 7.6142 | p4_Loss 7.6142 | 
+2024-03-01 01:45:12.831: real_rest_sum 3633.0000 | real_rest_sum_int 3633.0000 | all_sum 3633.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:45:27.818: [Training]| Epochs  29 | Batch  1000  | ms/batch 0.03 | Loss 7.5550 | p1_Loss 7.5550 | p2_Loss 7.5550 | p3_Loss 7.5550 | p4_Loss 7.5550 | 
+2024-03-01 01:45:27.820: real_rest_sum 1822.0000 | real_rest_sum_int 1822.0000 | all_sum 1822.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:45:42.494: [Training]| Epochs  29 | Batch  1500  | ms/batch 0.03 | Loss 7.1026 | p1_Loss 7.1026 | p2_Loss 7.1026 | p3_Loss 7.1026 | p4_Loss 7.1026 | 
+2024-03-01 01:45:42.495: real_rest_sum 8582.0000 | real_rest_sum_int 8582.0000 | all_sum 8582.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:45:59.718: [Training]| Epochs  29 | Batch  2000  | ms/batch 0.03 | Loss 7.5635 | p1_Loss 7.5635 | p2_Loss 7.5635 | p3_Loss 7.5635 | p4_Loss 7.5635 | 
+2024-03-01 01:45:59.719: real_rest_sum 1313.0000 | real_rest_sum_int 1313.0000 | all_sum 1313.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:46:13.250: [Training]| Epochs  29 | Batch  2500  | ms/batch 0.03 | Loss 7.4405 | p1_Loss 7.4405 | p2_Loss 7.4405 | p3_Loss 7.4405 | p4_Loss 7.4405 | 
+2024-03-01 01:46:13.251: real_rest_sum 2083.0000 | real_rest_sum_int 2083.0000 | all_sum 2083.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:46:26.147: batch_num: 2838
+2024-03-01 01:46:26.148: [Training]| Epochs  29 | loss_all  7.3364 | p1_all  7.3364 | p2_all  7.3364 | p3_all  7.3364 | p4_all  7.3364 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:46:26.149: train loss:7.3364223039763505
+2024-03-01 01:47:56.065: 1
+2024-03-01 01:48:06.360: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:48:06.636: [Training]| Epochs  30 | Batch     0  | ms/batch 0.00 | Loss 6.7075 | p1_Loss 6.7075 | p2_Loss 6.7075 | p3_Loss 6.7075 | p4_Loss 6.7075 | 
+2024-03-01 01:48:06.638: real_rest_sum 18026.0000 | real_rest_sum_int 18026.0000 | all_sum 18026.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:48:23.764: [Training]| Epochs  30 | Batch   500  | ms/batch 0.03 | Loss 7.5826 | p1_Loss 7.5826 | p2_Loss 7.5826 | p3_Loss 7.5826 | p4_Loss 7.5826 | 
+2024-03-01 01:48:23.766: real_rest_sum 1375.0000 | real_rest_sum_int 1375.0000 | all_sum 1375.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:48:43.046: [Training]| Epochs  30 | Batch  1000  | ms/batch 0.04 | Loss 7.2712 | p1_Loss 7.2712 | p2_Loss 7.2712 | p3_Loss 7.2712 | p4_Loss 7.2712 | 
+2024-03-01 01:48:43.047: real_rest_sum 3096.0000 | real_rest_sum_int 3096.0000 | all_sum 3096.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:49:02.098: [Training]| Epochs  30 | Batch  1500  | ms/batch 0.04 | Loss 6.7343 | p1_Loss 6.7343 | p2_Loss 6.7343 | p3_Loss 6.7343 | p4_Loss 6.7343 | 
+2024-03-01 01:49:02.099: real_rest_sum 5363.0000 | real_rest_sum_int 5363.0000 | all_sum 5363.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:49:22.462: [Training]| Epochs  30 | Batch  2000  | ms/batch 0.04 | Loss 6.6685 | p1_Loss 6.6685 | p2_Loss 6.6685 | p3_Loss 6.6685 | p4_Loss 6.6685 | 
+2024-03-01 01:49:22.463: real_rest_sum 4448.0000 | real_rest_sum_int 4448.0000 | all_sum 4448.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:49:43.135: [Training]| Epochs  30 | Batch  2500  | ms/batch 0.04 | Loss 7.4444 | p1_Loss 7.4444 | p2_Loss 7.4444 | p3_Loss 7.4444 | p4_Loss 7.4444 | 
+2024-03-01 01:49:43.136: real_rest_sum 2930.0000 | real_rest_sum_int 2930.0000 | all_sum 2930.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:49:56.007: batch_num: 2838
+2024-03-01 01:49:56.008: [Training]| Epochs  30 | loss_all  7.2811 | p1_all  7.2811 | p2_all  7.2811 | p3_all  7.2811 | p4_all  7.2811 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:49:56.009: train loss:7.2811202950843885
+2024-03-01 01:51:34.350: 1
+2024-03-01 01:51:45.086: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:51:45.587: [Training]| Epochs  31 | Batch     0  | ms/batch 0.00 | Loss 6.8289 | p1_Loss 6.8289 | p2_Loss 6.8289 | p3_Loss 6.8289 | p4_Loss 6.8289 | 
+2024-03-01 01:51:45.588: real_rest_sum 9552.0000 | real_rest_sum_int 9552.0000 | all_sum 9552.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:52:00.290: [Training]| Epochs  31 | Batch   500  | ms/batch 0.03 | Loss 7.5138 | p1_Loss 7.5138 | p2_Loss 7.5138 | p3_Loss 7.5138 | p4_Loss 7.5138 | 
+2024-03-01 01:52:00.291: real_rest_sum 2782.0000 | real_rest_sum_int 2782.0000 | all_sum 2782.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:52:14.434: [Training]| Epochs  31 | Batch  1000  | ms/batch 0.03 | Loss 7.5795 | p1_Loss 7.5795 | p2_Loss 7.5795 | p3_Loss 7.5795 | p4_Loss 7.5795 | 
+2024-03-01 01:52:14.435: real_rest_sum 3183.0000 | real_rest_sum_int 3183.0000 | all_sum 3183.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:52:29.975: [Training]| Epochs  31 | Batch  1500  | ms/batch 0.03 | Loss 7.6616 | p1_Loss 7.6616 | p2_Loss 7.6616 | p3_Loss 7.6616 | p4_Loss 7.6616 | 
+2024-03-01 01:52:29.976: real_rest_sum 1767.0000 | real_rest_sum_int 1767.0000 | all_sum 1767.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:52:42.907: [Training]| Epochs  31 | Batch  2000  | ms/batch 0.03 | Loss 7.9128 | p1_Loss 7.9128 | p2_Loss 7.9128 | p3_Loss 7.9128 | p4_Loss 7.9128 | 
+2024-03-01 01:52:42.908: real_rest_sum 999.0000 | real_rest_sum_int 999.0000 | all_sum 999.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:53:01.379: [Training]| Epochs  31 | Batch  2500  | ms/batch 0.04 | Loss 7.0281 | p1_Loss 7.0281 | p2_Loss 7.0281 | p3_Loss 7.0281 | p4_Loss 7.0281 | 
+2024-03-01 01:53:01.380: real_rest_sum 7099.0000 | real_rest_sum_int 7099.0000 | all_sum 7099.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:53:12.786: batch_num: 2838
+2024-03-01 01:53:12.787: [Training]| Epochs  31 | loss_all  7.2208 | p1_all  7.2208 | p2_all  7.2208 | p3_all  7.2208 | p4_all  7.2208 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:53:12.788: train loss:7.2207525391407295
+2024-03-01 01:54:49.294: 1
+2024-03-01 01:55:00.078: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:55:00.157: [Training]| Epochs  32 | Batch     0  | ms/batch 0.00 | Loss 6.7467 | p1_Loss 6.7467 | p2_Loss 6.7467 | p3_Loss 6.7467 | p4_Loss 6.7467 | 
+2024-03-01 01:55:00.158: real_rest_sum 44822.0000 | real_rest_sum_int 44822.0000 | all_sum 44822.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:55:17.957: [Training]| Epochs  32 | Batch   500  | ms/batch 0.04 | Loss 7.0143 | p1_Loss 7.0143 | p2_Loss 7.0143 | p3_Loss 7.0143 | p4_Loss 7.0143 | 
+2024-03-01 01:55:17.959: real_rest_sum 9568.0000 | real_rest_sum_int 9568.0000 | all_sum 9568.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:55:31.548: [Training]| Epochs  32 | Batch  1000  | ms/batch 0.03 | Loss 7.4382 | p1_Loss 7.4382 | p2_Loss 7.4382 | p3_Loss 7.4382 | p4_Loss 7.4382 | 
+2024-03-01 01:55:31.549: real_rest_sum 1321.0000 | real_rest_sum_int 1321.0000 | all_sum 1321.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:55:48.301: [Training]| Epochs  32 | Batch  1500  | ms/batch 0.03 | Loss 7.2288 | p1_Loss 7.2288 | p2_Loss 7.2288 | p3_Loss 7.2288 | p4_Loss 7.2288 | 
+2024-03-01 01:55:48.302: real_rest_sum 2304.0000 | real_rest_sum_int 2304.0000 | all_sum 2304.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:56:02.352: [Training]| Epochs  32 | Batch  2000  | ms/batch 0.03 | Loss 6.9093 | p1_Loss 6.9093 | p2_Loss 6.9093 | p3_Loss 6.9093 | p4_Loss 6.9093 | 
+2024-03-01 01:56:02.353: real_rest_sum 5280.0000 | real_rest_sum_int 5280.0000 | all_sum 5280.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:56:17.700: [Training]| Epochs  32 | Batch  2500  | ms/batch 0.03 | Loss 7.1218 | p1_Loss 7.1218 | p2_Loss 7.1218 | p3_Loss 7.1218 | p4_Loss 7.1218 | 
+2024-03-01 01:56:17.701: real_rest_sum 2760.0000 | real_rest_sum_int 2760.0000 | all_sum 2760.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:56:27.825: batch_num: 2838
+2024-03-01 01:56:27.826: [Training]| Epochs  32 | loss_all  7.1616 | p1_all  7.1616 | p2_all  7.1616 | p3_all  7.1616 | p4_all  7.1616 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:56:27.827: train loss:7.161643615400733
+2024-03-01 01:58:04.398: 1
+2024-03-01 01:58:15.099: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 01:58:15.209: [Training]| Epochs  33 | Batch     0  | ms/batch 0.00 | Loss 6.6582 | p1_Loss 6.6582 | p2_Loss 6.6582 | p3_Loss 6.6582 | p4_Loss 6.6582 | 
+2024-03-01 01:58:15.210: real_rest_sum 28583.0000 | real_rest_sum_int 28583.0000 | all_sum 28583.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:58:31.377: [Training]| Epochs  33 | Batch   500  | ms/batch 0.03 | Loss 6.5307 | p1_Loss 6.5307 | p2_Loss 6.5307 | p3_Loss 6.5307 | p4_Loss 6.5307 | 
+2024-03-01 01:58:31.379: real_rest_sum 3645.0000 | real_rest_sum_int 3645.0000 | all_sum 3645.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:58:46.122: [Training]| Epochs  33 | Batch  1000  | ms/batch 0.03 | Loss 7.1250 | p1_Loss 7.1250 | p2_Loss 7.1250 | p3_Loss 7.1250 | p4_Loss 7.1250 | 
+2024-03-01 01:58:46.123: real_rest_sum 1700.0000 | real_rest_sum_int 1700.0000 | all_sum 1700.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:59:01.424: [Training]| Epochs  33 | Batch  1500  | ms/batch 0.03 | Loss 7.3381 | p1_Loss 7.3381 | p2_Loss 7.3381 | p3_Loss 7.3381 | p4_Loss 7.3381 | 
+2024-03-01 01:59:01.424: real_rest_sum 4487.0000 | real_rest_sum_int 4487.0000 | all_sum 4487.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:59:18.011: [Training]| Epochs  33 | Batch  2000  | ms/batch 0.03 | Loss 7.8374 | p1_Loss 7.8374 | p2_Loss 7.8374 | p3_Loss 7.8374 | p4_Loss 7.8374 | 
+2024-03-01 01:59:18.013: real_rest_sum 1454.0000 | real_rest_sum_int 1454.0000 | all_sum 1454.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:59:31.144: [Training]| Epochs  33 | Batch  2500  | ms/batch 0.03 | Loss 7.5418 | p1_Loss 7.5418 | p2_Loss 7.5418 | p3_Loss 7.5418 | p4_Loss 7.5418 | 
+2024-03-01 01:59:31.146: real_rest_sum 900.0000 | real_rest_sum_int 900.0000 | all_sum 900.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 01:59:42.882: batch_num: 2838
+2024-03-01 01:59:42.883: [Training]| Epochs  33 | loss_all  7.1033 | p1_all  7.1033 | p2_all  7.1033 | p3_all  7.1033 | p4_all  7.1033 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 01:59:42.884: train loss:7.103282582978282
+2024-03-01 02:01:19.448: 1
+2024-03-01 02:01:30.147: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 02:01:30.334: [Training]| Epochs  34 | Batch     0  | ms/batch 0.00 | Loss 6.9223 | p1_Loss 6.9223 | p2_Loss 6.9223 | p3_Loss 6.9223 | p4_Loss 6.9223 | 
+2024-03-01 02:01:30.335: real_rest_sum 48558.0000 | real_rest_sum_int 48558.0000 | all_sum 48558.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:01:47.055: [Training]| Epochs  34 | Batch   500  | ms/batch 0.03 | Loss 7.3306 | p1_Loss 7.3306 | p2_Loss 7.3306 | p3_Loss 7.3306 | p4_Loss 7.3306 | 
+2024-03-01 02:01:47.056: real_rest_sum 3145.0000 | real_rest_sum_int 3145.0000 | all_sum 3145.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:02:01.320: [Training]| Epochs  34 | Batch  1000  | ms/batch 0.03 | Loss 6.3754 | p1_Loss 6.3754 | p2_Loss 6.3754 | p3_Loss 6.3754 | p4_Loss 6.3754 | 
+2024-03-01 02:02:01.321: real_rest_sum 12498.0000 | real_rest_sum_int 12498.0000 | all_sum 12498.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:02:19.598: [Training]| Epochs  34 | Batch  1500  | ms/batch 0.04 | Loss 7.7683 | p1_Loss 7.7683 | p2_Loss 7.7683 | p3_Loss 7.7683 | p4_Loss 7.7683 | 
+2024-03-01 02:02:19.599: real_rest_sum 3598.0000 | real_rest_sum_int 3598.0000 | all_sum 3598.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:02:33.650: [Training]| Epochs  34 | Batch  2000  | ms/batch 0.03 | Loss 7.8994 | p1_Loss 7.8994 | p2_Loss 7.8994 | p3_Loss 7.8994 | p4_Loss 7.8994 | 
+2024-03-01 02:02:33.651: real_rest_sum 1357.0000 | real_rest_sum_int 1357.0000 | all_sum 1357.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:02:46.680: [Training]| Epochs  34 | Batch  2500  | ms/batch 0.03 | Loss 7.4915 | p1_Loss 7.4915 | p2_Loss 7.4915 | p3_Loss 7.4915 | p4_Loss 7.4915 | 
+2024-03-01 02:02:46.681: real_rest_sum 639.0000 | real_rest_sum_int 639.0000 | all_sum 639.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:02:57.710: batch_num: 2838
+2024-03-01 02:02:57.711: [Training]| Epochs  34 | loss_all  7.0458 | p1_all  7.0458 | p2_all  7.0458 | p3_all  7.0458 | p4_all  7.0458 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 02:02:57.712: train loss:7.045825704039613
+2024-03-01 02:04:34.082: 1
+2024-03-01 02:04:44.749: G1_flag 0 pretrain 0 temp 1 train_epoch 0  B 128 al_batch 200 lr 0.0001  temp0 0.3
+2024-03-01 02:04:45.071: [Training]| Epochs  35 | Batch     0  | ms/batch 0.00 | Loss 6.5238 | p1_Loss 6.5238 | p2_Loss 6.5238 | p3_Loss 6.5238 | p4_Loss 6.5238 | 
+2024-03-01 02:04:45.072: real_rest_sum 17429.0000 | real_rest_sum_int 17429.0000 | all_sum 17429.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:04:59.801: [Training]| Epochs  35 | Batch   500  | ms/batch 0.03 | Loss 6.5669 | p1_Loss 6.5669 | p2_Loss 6.5669 | p3_Loss 6.5669 | p4_Loss 6.5669 | 
+2024-03-01 02:04:59.802: real_rest_sum 9729.0000 | real_rest_sum_int 9729.0000 | all_sum 9729.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:05:14.450: [Training]| Epochs  35 | Batch  1000  | ms/batch 0.03 | Loss 7.5955 | p1_Loss 7.5955 | p2_Loss 7.5955 | p3_Loss 7.5955 | p4_Loss 7.5955 | 
+2024-03-01 02:05:14.451: real_rest_sum 1230.0000 | real_rest_sum_int 1230.0000 | all_sum 1230.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:05:29.793: [Training]| Epochs  35 | Batch  1500  | ms/batch 0.03 | Loss 6.7936 | p1_Loss 6.7936 | p2_Loss 6.7936 | p3_Loss 6.7936 | p4_Loss 6.7936 | 
+2024-03-01 02:05:29.794: real_rest_sum 15771.0000 | real_rest_sum_int 15771.0000 | all_sum 15771.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:05:46.687: [Training]| Epochs  35 | Batch  2000  | ms/batch 0.03 | Loss 6.8137 | p1_Loss 6.8137 | p2_Loss 6.8137 | p3_Loss 6.8137 | p4_Loss 6.8137 | 
+2024-03-01 02:05:46.689: real_rest_sum 3254.0000 | real_rest_sum_int 3254.0000 | all_sum 3254.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:06:05.961: [Training]| Epochs  35 | Batch  2500  | ms/batch 0.04 | Loss 6.7825 | p1_Loss 6.7825 | p2_Loss 6.7825 | p3_Loss 6.7825 | p4_Loss 6.7825 | 
+2024-03-01 02:06:05.963: real_rest_sum 4369.0000 | real_rest_sum_int 4369.0000 | all_sum 4369.0000 | rest_ratio 1.0000 | repeat_ratio 1.0000
+2024-03-01 02:06:19.684: batch_num: 2838
+2024-03-01 02:06:19.685: [Training]| Epochs  35 | loss_all  6.9971 | p1_all  6.9971 | p2_all  6.9971 | p3_all  6.9971 | p4_all  6.9971 | real_rest_ratio 1.0000 | repeat_ratio 1.0000 |
+2024-03-01 02:06:19.686: train loss:6.997124306159258
+2024-03-01 02:07:53.533: 1
+2024-03-01 02:08:04.549: train_loss [8.633769925334573, 8.4975018413912, 8.475037001656176, 8.444214881012522, 8.412342201579701, 8.380165828458855, 8.350310351665462, 8.317844029292832, 8.285508142717292, 8.252592598409027, 8.218948172380422, 8.181547641586132, 8.14349238010592, 8.10547648810265, 8.063721252378231, 8.022747117083538, 7.9807764680726665, 7.93085674100396, 7.883347799611646, 7.832446948166377, 7.78390293301118, 7.728862448760202, 7.677105415615085, 7.622372586681777, 7.567635090272136, 7.5139740537471384, 7.45031925479319, 7.393008925740025, 7.3364223039763505, 7.2811202950843885, 7.2207525391407295, 7.161643615400733, 7.103282582978282, 7.045825704039613, 6.997124306159258]
